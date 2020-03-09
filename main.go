@@ -14,8 +14,8 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 
 		f := fib()
-
-		res := &response{Message: "Hello World"}
+New
+		res := &response{Message: "New Hello World"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
